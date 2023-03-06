@@ -25,6 +25,22 @@
       "id": 7
     }
   ],
-  "albums": [],
+  "albums": [
+    {
+      "id": 10,
+      "title": "Test album",
+      "userId": 3
+    },
+    {
+      "userId": 3,
+      "name": "Modern Soft Keyboard",
+      "id": 11
+    },
+    {
+      "userId": 1,
+      "title": "Recycled Fresh Chair",
+      "id": 12
+    }
+  ],
   "photos": []
 }
