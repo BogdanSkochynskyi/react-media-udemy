@@ -3,10 +3,10 @@ import {useDeleteAlbumMutation} from "../store";
 import Button from "./Button";
 import ExpandablePanel from "./ExpandablePanel";
 
-function AlbumsListItem({album, user}) {
+function AlbumsListItem({album}) {
     const [deleteAlbum, results] = useDeleteAlbumMutation();
     const handleClick = () => {
-        deleteAlbum({album, user});
+        deleteAlbum(album);
     }
 
     const header = <>
